@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headerbg{
+    background-image: url('./Images/bg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 660px;
+    /* -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0
+    filter: grayscale(30%); */
+   
+}
+.list{
+    margin-right: 10px;
+}
+.list:hover{
+    color: #ffc107!important;
+    text-decoration: underline;
+    border-bottom: 5px solid #ffc107!important;;
+}
+.headerbody{
+    /* margin-top: 200px;
+    box-sizing: border-box; */ 
+    /* backdrop-filter: blur(0.8); */
+    opacity: 0.9;
+}
+/* .textheading{
+    color:#8EE4AF!important;
+} */
+#text{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.fa {
+    font-size: 30px;
+    width: 40px;
+    padding:10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+.fa:hover{
+      opacity: 0.7;
+      text-decoration: none;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .icon{
+      margin-right: 10px;
+  }
+  .hr-line{
+      border: 2px solid ;
+      width: 350px;
+      margin:10px auto;
+      box-shadow: 0px 2px 5px black;
+  }
+  .hr-line-heading{
+    border-top: 2px solid green;
+    /* border: 3px solid green; */
+    width: 100px;
+    margin:5px auto;
+  }
+  .text{
+      font-weight: bolder;
+      text-transform: uppercase;
+      /* margin-top: 20px!important;
+       */
+       padding-top: 20px;
+  }
+  .img-circle{
+      border-radius: 50%;
+      width:230px;
+      height:250px;
+      padding:10px 10px 20px 10px ;
+      
+}
+.img-circle:hover{
+    opacity: 0.5;
+}
+.intro-body{
+    padding-top: 10px;
+    margin:10px 30px;
+    line-height: 2;
+}
+.into-section{
+    background-color: #f1f1f1!important;
+    }
+.card{
+    margin-top: 50px;
+}
+ .carousel-inner img {
+    width: 100%;
+}
+/* .slider{
+    margin-top: -10px;
+} */
+.section-body{
+    margin-top: 30px;
+}
+/* .dream-plan{
+    width: 100%;
+    height: 1100px;
+    
+} */
+
+/* Sindh*/
+
+.recommended-images{
+    background-image: url(./Images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.recommended{
+    margin-top: -10px;
+}
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } }
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px;}
+
+.recommended-images-punjab{
+    background-image: url(./Images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.recommended-images-balochistan{
+    background-image: url(./Images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none!important;
+}
